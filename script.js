@@ -53,7 +53,7 @@ function generatePassword() {
         alert("passowrd must be between 8 & 128 characters!");
         return;
     };
-    prompt("Click ok to view the generated password!");
+    alert("Click ok to view the generated password!");
     return password;
 };
 
