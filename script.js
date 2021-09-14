@@ -20,16 +20,15 @@ function generatePassword(){
     let specialCharacters = "!@#$%^&*()_=+-:;><?/{}";
     let passwordChar = "";
     let password = "";
-};
 
-let passwordLength = prompt("password length must be between 8 & 128 characters! How long would you like your password to be?");
+    let passwordLength = prompt("password length must be between 8 & 128 characters! How long would you like your password to be?");
 
     let lowerChar = confirm("Do you want lower-case letter to be included?");
     if (lowerChar){
         passwordChar += lowCaseAlpha;
     };
 
-      let upperChar = confirm("Do you want upper-case letter to be included?");
+    let upperChar = confirm("Do you want upper-case letter to be included?");
     if (upperChar){
         passwordChar += upprCaseAlpha;
     };
@@ -43,3 +42,21 @@ let passwordLength = prompt("password length must be between 8 & 128 characters!
     if (specialChar){
         passwordChar += specialCharacters;
     };
+
+    if (passwordLength >= 8 && passwordLength <= 128) {
+        for (let i = 0; i < passwordLength; i++) {
+            password += passwordChar.charAt(
+                Math.floor(Math.random() * passwordChar.length)
+            );
+        };
+    }else {
+        alert("passowrd must be between 8 & 128 characters!");
+        return;
+    };
+    prompt("Click ok to view the generated password!");
+    return password;
+};
+
+
+
+    
