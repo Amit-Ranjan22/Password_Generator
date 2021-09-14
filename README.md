@@ -82,9 +82,9 @@ WHEN : by using Math.random() inside the if statement, random number is
 WHEN : passwordChar.charAt() method is used on the generated random number.<br>
 WHEN : a variable 'password' with an empty string is declared globally.<br>
 WHEN : passwordChar.charAt() result is stored in variable 'password'.
-
-*Deployed application should look like the below given image*
-
+------
+Deployed application should look like the below given image.<br>
+------
 <img src = "./Application-Screenshot/Application-Screenshot.png" alt = "password-generator-app_screenshot">
 
 *GitHub URL to the repository*
@@ -94,5 +94,5 @@ https://github.com/Amit-Ranjan22/Password_Generator.git
 
 *URL to the deployed application*
 ------
-
+https://amit-ranjan22.github.io/Password_Generator/
 ------
