@@ -14,8 +14,7 @@ body,
 
 body {
   font-family: sans-serif;
-  /* background-color: #f9fbfd; */
-  background-color: #cb997e;
+  background-color: #023e8a;
 }
 
 .wrapper {
@@ -28,16 +27,15 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: #582f0e;
 }
 
 .card {
-  /* background-color: hsl(0, 0%, 100%); */
-  background-color: #ffd7ba;
+  background-color: #168aad;
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  color: #005f73;
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
@@ -48,7 +46,6 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  /* background: #e7e9eb; */
   background: #ca6702;
   height: 2px;
 }
@@ -65,7 +62,6 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  /* background: #e7e9eb; */
   background: #ca6702;
   height: 2px;
 }
@@ -116,7 +112,6 @@ button[disabled] {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  /* border: 2px dashed #c0c7cf; */
   border: 2px dashed #ff006e;
   border-radius: 6px;
   resize: none;
