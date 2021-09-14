@@ -21,3 +21,25 @@ function generatePassword(){
     let passwordChar = "";
     let password = "";
 };
+
+let passwordLength = prompt("password length must be between 8 & 128 characters! How long would you like your password to be?");
+
+    let lowerChar = confirm("Do you want lower-case letter to be included?");
+    if (lowerChar){
+        passwordChar += lowCaseAlpha;
+    };
+
+      let upperChar = confirm("Do you want upper-case letter to be included?");
+    if (upperChar){
+        passwordChar += upprCaseAlpha;
+    };
+
+    let numericChar = confirm("Do you want a number to be included?");
+    if (numericChar){
+        passwordChar += numbers;
+    };
+
+    let specialChar = confirm("Do you want special character to be included?");
+    if (specialChar){
+        passwordChar += specialCharacters;
+    };
